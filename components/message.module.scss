@@ -1,0 +1,34 @@
+.message {
+    border: 3px solid #C0AA99;
+    background-color: #FFEBDC;
+    color: #423933;
+    border-radius: 1rem;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 1rem;
+    padding-left: 1rem;
+    line-height: 0.8;
+    transition: all 0.5s;
+
+    @media (min-width: 800px) {
+        width: 600px; // Change this value to your desired width for desktop devices
+      }
+    
+    @media (min-width: 1000px) {
+        width: 800px; // Change this value to your desired width for desktop devices
+      }
+}
+.meta {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+.date {
+    color: #766b61;
+    font-size: 0.8rem;
+}

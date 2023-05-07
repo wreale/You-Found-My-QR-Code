@@ -1,0 +1,16 @@
+.submit {
+    border: 3px solid #2B6200;
+    background-color: #3F8E00;
+    height: 3.5rem;
+    width: 420px;
+    border-radius: 0.25rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    &:hover{
+        background-color: red;
+        transition: all 0.25s;
+        border: 3px solid #347700;
+        background-color: #50b100;
+    }
+}
